@@ -9,7 +9,7 @@ Items utilizados na conclusão do desafio:
 * Deploy no Heroku com NodeJS + MLab
 * Gulp para jsHint e Nodemon para auto-restart do NodeJS (necessario instalar: npm install -g gulp)
 * Mocha para testes unitários: (necessario instalar: npm install -g mocha)  
-**Total: 9 testes de EndPoint com cada regra do desafio**
+**Foram feitos 9 testes de EndPoint de acordo com as regras do desafio**
 * JWT para Token de usuário
 * Criptografia Hash não reversível da senha e token
 
