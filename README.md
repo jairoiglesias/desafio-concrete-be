@@ -4,12 +4,14 @@ Criação de um aplicativo Back-End que exporta uma API RESTful para Sign in / S
 
 Items utilizados na conclusão do desafio:  
 
-* Express v. ~4.14.0
+* Express version ~4.14.0
 * MongoDb para armazenamento de dados (Serviço MLab)
-* Deploy no Heroku com NodeJS + Env Vars + MLab
+* Deploy no Heroku com NodeJS + MLab
 * Gulp (necessario instalar: npm install -g gulp)
-* Mocha para testes unitários ![#c5f015](necessario instalar: npm install -g mocha)
+* Mocha para testes unitários (necessario instalar: npm install -g mocha)
 * JWT para Token de usuário
+
+<font color='green'>text</font>
 
 ## EndPoints
 
