@@ -43,6 +43,7 @@ body: {
 ```
 ### Busca de Usuario
 
+```json
 url : (https://desafio-concrete-be.herokuapp.com/find_user/[id_usuario]  
 **Onde [id_usuario] é o UUID devolvido via SignIn**  
 
@@ -50,3 +51,4 @@ headers: "Authorization Bearer [token]
 **Onde [token] é o JWT devolvido via SignIn**  
 
 method: GET
+```
