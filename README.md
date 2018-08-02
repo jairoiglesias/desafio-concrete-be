@@ -2,7 +2,19 @@
 
 Criação de um aplicativo Back-End que exporta uma API RESTful para Sign in / Sign up.
 
-## EndPoints
+### EndPoints
 
-[Criação de Cadastro] (https://desafio-concrete-be.herokuapp.com/create_user)
+## Criação de Cadastro
+
+url: (https://desafio-concrete-be.herokuapp.com/create_user)
+method: POST
+body: {
+    "nome": "[nome usuario]",
+    "email": "[email]",
+    "senha": "[senha]",
+    "telefones": [{
+        "numero" : "[telefone]",
+        "ddd": "[ddd]"
+    }]
+}
 
