@@ -11,8 +11,6 @@ Items utilizados na conclusão do desafio:
 * Mocha para testes unitários (necessario instalar: npm install -g mocha)
 * JWT para Token de usuário
 
-<font color='green'>text</font>
-
 ## EndPoints
 
 ### Criação de Usuario (Sign up)
@@ -41,8 +39,9 @@ body: {
 ### Busca de Usuario
 
 url : (https://desafio-concrete-be.herokuapp.com/find_user/[id_usuario]  
-Onde [id_usuario] é o GUID devolvido via SignIn
+*Onde [id_usuario] é o GUID devolvido via SignIn*
 
 headers: "Authorization Bearer [token]  
-Onde [token] é o JWT devolvido via SignIn
+*Onde [token] é o JWT devolvido via SignIn*  
+
 method: GET
