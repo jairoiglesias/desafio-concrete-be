@@ -8,13 +8,13 @@ Criação de um aplicativo Back-End que exporta uma API RESTful para Sign in / S
 
 url: (https://desafio-concrete-be.herokuapp.com/create_user)  
 method: POST  
-body: {
-    "nome": "[nome usuario]",
-    "email": "[email]",
-    "senha": "[senha]",
-    "telefones": [{
-        "numero" : "[telefone]",
-        "ddd": "[ddd]"
-    }]
-}
+body: {  
+    "nome": "[nome usuario]",  
+    "email": "[email]",  
+    "senha": "[senha]",  
+    "telefones": [{  
+        "numero" : "[telefone]",  
+        "ddd": "[ddd]"  
+    }]  
+}  
 
