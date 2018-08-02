@@ -66,10 +66,13 @@ module.exports = (app) => {
             // Cria um Token via JWT
             let token = jwt.sign(newUUID, process.env.secretJwtKey)
 
+            /* Fiquei na duvida se era necessario isso ... mas está pedindo no desafio! */
+            let criptoToken = crypto.createHmac('sha256', process.env.secretJwtKey).update(token).digest('hex')
+            
             registro.id_usuario = newUUID
             registro.email = req.body.email
             registro.senha = cryptoSenha
-            registro.token = token
+            registro.token = criptoToken
             registro.data_criacao = new Date()
             registro.data_atualizacao = ''
             registro.ultimo_login = ''
