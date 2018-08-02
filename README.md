@@ -8,7 +8,8 @@ Items utilizados na conclusão do desafio:
 * MongoDb para armazenamento de dados (Serviço MLab)
 * Deploy no Heroku com NodeJS + MLab
 * Gulp (necessario instalar: npm install -g gulp)
-* Mocha para testes unitários (necessario instalar: npm install -g mocha)
+* Mocha para testes unitários: (necessario instalar: npm install -g mocha  
+_Total: 9 testes de EndPoint com cada regra do desafio_
 * JWT para Token de usuário
 
 ## EndPoints
