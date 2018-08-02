@@ -9,7 +9,7 @@ Items utilizados na conclusão do desafio:
 * Deploy no Heroku com NodeJS + MLab
 * Gulp para jsHint e Nodemon para auto-restart do NodeJS (necessario instalar: npm install -g gulp)
 * Mocha para testes unitários: (necessario instalar: npm install -g mocha)  
-_Total: 9 testes de EndPoint com cada regra do desafio_
+**Total: 9 testes de EndPoint com cada regra do desafio**
 * JWT para Token de usuário
 * Criptografia Hash não reversível da senha e token
 
@@ -45,10 +45,10 @@ body: {
 
 ```json
 url : (https://desafio-concrete-be.herokuapp.com/find_user/[id_usuario]  
-**Onde [id_usuario] é o UUID devolvido via SignIn**  
+=> Onde [id_usuario] é o UUID devolvido via SignIn 
 
 headers: "Authorization Bearer [token]  
-**Onde [token] é o JWT devolvido via SignIn**  
+=> Onde [token] é o JWT devolvido via SignIn  
 
 method: GET
 ```
