@@ -1,0 +1,8 @@
+{
+
+    "env": {
+      "secretJwtKey": "desafio-concrete-be-301547",
+      "secretPwdKey": "desafio-concrete-be-superPwd",
+      "limit_min_token" : 30
+    }
+  }
