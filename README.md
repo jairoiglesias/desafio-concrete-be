@@ -11,7 +11,7 @@ Items utilizados na conclusão do desafio:
 * Mocha para testes unitários: (necessario instalar: npm install -g mocha)  
 _Total: 9 testes de EndPoint com cada regra do desafio_
 * JWT para Token de usuário
-* Criptografia HASH não reversível da senha
+* Criptografia Hash não reversível da senha e token
 
 ## EndPoints
 
