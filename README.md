@@ -7,11 +7,16 @@ Items utilizados na conclusão do desafio:
 * Express version ~4.14.0
 * MongoDb para armazenamento de dados (Serviço MLab)
 * Deploy no Heroku com NodeJS + MLab
-* Gulp para jsHint e Nodemon para auto-restart do NodeJS (necessario instalar: npm install -g gulp)
+* Gulp para JSHint e Nodemon para auto-restart do NodeJS e Build (necessario instalar: npm install -g gulp)
 * Mocha para testes unitários: (necessario instalar: npm install -g mocha)  
 **Foram feitos 9 testes de EndPoint de acordo com as regras do desafio**
 * JWT para Token de usuário
 * Criptografia Hash não reversível da senha e token
+
+## Usando Gulp
+
+* Executar comando "gulp" na raiz do projeto irá iniciar o Nodemon com JSHint para desenvolvimento
+* Executar comando "gulp build" para gerar o build
 
 ## EndPoints
 
