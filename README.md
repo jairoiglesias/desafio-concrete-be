@@ -16,7 +16,11 @@ Items utilizados na conclusão do desafio:
 ## Usando Gulp
 
 * Executar comando "gulp" na raiz do projeto irá iniciar o Nodemon com JSHint para desenvolvimento
-* Executar comando "gulp build" para gerar o build
+* Executar comando "gulp build" na raiz do projeto para gerar o build
+
+## Usando Mocha
+
+* Executar comando "mocha" na raiz do projeto para iniciar os testes
 
 ## EndPoints
 
