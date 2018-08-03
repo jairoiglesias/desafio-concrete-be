@@ -2,7 +2,7 @@
 
 Criação de um aplicativo Back-End que exporta uma API RESTful para Sign in / Sign up.
 
-Items utilizados na conclusão do desafio:  
+Items que foram concluídos no desafio:
 
 * Express version ~4.14.0
 * MongoDb para armazenamento de dados (Serviço MLab)
